@@ -1,0 +1,222 @@
+body header {
+  width: 100%;
+  height: 500px;
+  background: #eff0f2; }
+  body header nav {
+    background: #eff0f2 !important; }
+    body header nav .container .collapse ul li a {
+      color: grey;
+      font-weight: 500; }
+      body header nav .container .collapse ul li a:hover {
+        color: #4981b3; }
+    body header nav .container .collapse ul li .active {
+      color: #4981b3; }
+  body header .container .row .col-md-10 {
+    text-align: center; }
+    body header .container .row .col-md-10 h2 {
+      font-size: 2.4rem;
+      font-weight: 650;
+      text-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); }
+      body header .container .row .col-md-10 h2 span {
+        background: #b2f2ee; }
+  body header .container .row button {
+    border-radius: 0; }
+body main .about-us {
+  width: 100%;
+  height: 600px;
+  background: #f8fafa; }
+body main .services {
+  width: 100%;
+  height: 1200px;
+  background: #f8fafa; }
+  body main .services .container .row .service-col {
+    position: relative;
+    height: 280px;
+    z-index: 0;
+    border: 4px solid #f8fafa; }
+    body main .services .container .row .service-col img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 1; }
+    body main .services .container .row .service-col .opacity {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 2;
+      padding: 100px 30px 0px 30px;
+      overflow: hidden; }
+      body main .services .container .row .service-col .opacity button {
+        color: white;
+        font-size: 12px; }
+        body main .services .container .row .service-col .opacity button:hover {
+          text-decoration: none; }
+      body main .services .container .row .service-col .opacity p {
+        font-size: 13px; }
+body main .small-div {
+  width: 100%;
+  height: auto; }
+  body main .small-div .container .row .team {
+    height: 430px;
+    position: relative;
+    z-index: -1;
+    border: 5px solid white; }
+    body main .small-div .container .row .team:hover .hover2 {
+      display: block; }
+    body main .small-div .container .row .team img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1; }
+    body main .small-div .container .row .team .hover {
+      position: absolute;
+      display: block;
+      width: 80%;
+      height: 180px;
+      background: #6ff6eb;
+      bottom: 20px;
+      left: 35px;
+      z-index: 2;
+      box-shadow: 0 7px 13px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+      overflow: hidden; }
+      body main .small-div .container .row .team .hover:before {
+        content: '';
+        position: absolute;
+        top: -15px;
+        left: 30px;
+        width: 30px;
+        height: 30px;
+        background: #6ff6eb;
+        transform: rotate(45deg); }
+      body main .small-div .container .row .team .hover h5 span i {
+        font-size: 11px; }
+      body main .small-div .container .row .team .hover p i {
+        font-size: 12px;
+        letter-spacing: 2px; }
+body main .what-say {
+  width: 100%;
+  height: 740px;
+  margin-top: 100px;
+  background: #f8fafa; }
+  body main .what-say .container {
+    background: #f8fafa; }
+    body main .what-say .container .row .col-md-12 .carousel .carousel-inner .carousel-item {
+      transition: 1.7s ease-in-out; }
+      body main .what-say .container .row .col-md-12 .carousel .carousel-inner .carousel-item .car-flex {
+        flex-wrap: wrap;
+        padding: 0 40px;
+        height: 400px;
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center; }
+        body main .what-say .container .row .col-md-12 .carousel .carousel-inner .carousel-item .car-flex .img-carousel {
+          height: 400px;
+          width: 30%; }
+          body main .what-say .container .row .col-md-12 .carousel .carousel-inner .carousel-item .car-flex .img-carousel img {
+            width: 100%;
+            height: 100%; }
+        body main .what-say .container .row .col-md-12 .carousel .carousel-inner .carousel-item .car-flex .content-carousel {
+          height: 260px;
+          padding: 50px 30px;
+          background: #eaebed;
+          width: 60%; }
+          body main .what-say .container .row .col-md-12 .carousel .carousel-inner .carousel-item .car-flex .content-carousel p {
+            font-size: 13px; }
+          body main .what-say .container .row .col-md-12 .carousel .carousel-inner .carousel-item .car-flex .content-carousel .stars {
+            width: 100%;
+            height: 20px;
+            text-align: center; }
+body main .contact .container {
+  background-image: url("../img/bg-contact.png");
+  height: auto; }
+  body main .contact .container .row .col-md-7 {
+    margin-top: 130px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-right: 5px solid white; }
+    body main .contact .container .row .col-md-7 form .form-group input, body main .contact .container .row .col-md-7 form .form-group textarea {
+      background: none;
+      border-top: 0;
+      border-right: 0;
+      border-left: 0;
+      border-radius: 0; }
+      body main .contact .container .row .col-md-7 form .form-group input::placeholder, body main .contact .container .row .col-md-7 form .form-group textarea::placeholder {
+        color: white; }
+    body main .contact .container .row .col-md-7 form .form-group textarea {
+      width: 100%;
+      resize: none;
+      border-bottom: 1px solid white; }
+    body main .contact .container .row .col-md-7 form .form-group button {
+      border-radius: 0;
+      background: #6eeee4;
+      font-weight: 600; }
+  body main .contact .container .row .col-md-5 {
+    margin-top: 130px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-left: 5px solid white; }
+    body main .contact .container .row .col-md-5 p {
+      margin-top: -10px; }
+body footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background: #262b2e; }
+  body footer .container {
+    background: #262b2e; }
+    body footer .container .row .col-md-4 {
+      text-align: center; }
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+@media (min-width: 0px) and (max-width: 575.9px) {
+  body header {
+    height: 550px; }
+  body main .about-us .container .row .second-content-about {
+    margin-top: 60px; }
+    body main .about-us .container .row .second-content-about h5, body main .about-us .container .row .second-content-about p {
+      margin-right: 30px; }
+  body main .featured-works .container .row .col-md-12 h3 {
+    margin-top: 750px; }
+  body main .small-div .container .row .col-md-12 {
+    margin-top: 750px; }
+  body main .what-say {
+    display: none; }
+  body main .jumbotron {
+    margin-top: 100px; } }
+@media (min-width: 576px) and (max-width: 767.9px) {
+  body main .featured-works .container .row .col-md-12 h3 {
+    margin-top: 270px; }
+  body main .what-say .container .row .col-md-12 .carousel .carousel-inner .carousel-item .car-flex .img-carousel {
+    height: 260px; }
+  body main .what-say .container .row .col-md-12 .carousel .carousel-inner .carousel-item .car-flex .content-carousel {
+    overflow: hidden; } }
+@media (min-width: 768px) and (max-width: 991.9px) {
+  body main .about-us .container .row .second-content-about .none {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
